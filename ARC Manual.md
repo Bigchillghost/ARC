@@ -205,7 +205,7 @@ long key
 long Value
 dict dictContainer[key][Value]
 value itemValue[dictContainer][key]
-ref itemValueRef[dictContainer][key]
+refer itemValueRef[dictContainer][key]
 ```
 
 ## Data Interpretation Options
@@ -439,3 +439,5 @@ BigEndian, Quaternion, ColMajor, Up/Front/Right: +Z/-Y/X
 ![](stand.png)
 
 ![](stand_preview.png)
+
+![](stand.gif)
