@@ -6,8 +6,8 @@ Animation Recipe Cracker, abbreviated as ARC, is a helper tool aimed for quick r
 
 ## Syntax of the Layout Definition Interface
 
-Each variable definition statement follows a simple syntax shown below:
-`Type	Variable[Size][Size] // comment here.`
+Each variable definition statement follows a simple syntax shown below:<br/>
+`Type	Variable[Size][Size] // comment here.`<br/>
 where `Type` stands for the allowed general data type or command for `Variable`, and `Size` in the square brackets is an optional field that specifies the 1st and the 2nd dimension sizes if the variable is an array, or the operators and/or the operands if `Type` is a command. Only certain pre-defined variables support both 2 dimensions to be defined, while the rest of them allow only 1 or 0 dimension. Single line comment is allowed using the `//` identifier.
 
 There's no limit for the number of white spaces (space or tab) placed between `Type` and `Variable`, and that after the last dimension size.
